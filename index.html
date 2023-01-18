@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>University Web Site Design</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Josefin+Sans:wght@100&family=Lexend+Deca:wght@100&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">Home</a>
+                    <li><a href="">About</a>
+                    <li><a href="">Course</a>
+                    <li><a href="">Blog</a>
+                    <li><a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, eaque beatae. Officia dolor minus ullam sequi. Tenetur mollitia Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, 
+                <br>eaque beatae. Officia dolor minus ullam sequi. Tenetur mollitia</p>
+            <a href="" class="hero-btn">Visit us to Know More</a>
+
+        </div>
+
+
+    </section>
+
+    <!---------------------------course------------------------------------------->
+    <section class="course">
+
+        <h1>
+            Courses We Offer
+        </h1>
+        <p>
+            Lorem ipsum dolor sitquam iure odiom 
+        </p>
+
+        <div class="row">
+            <div id = "1"class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis nihil ratione consectetur <br>alias, sit est sunt obcaecati eveniet reprehenderit velit consequuntur deserunt laborum necessitatibus <br>accusamus animi reiciendis placeat. Natus.
+                </p>
+            </div>
+        <div class="row">
+            <div class="course-col">
+
+                <h3>Digree</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis nihil ratione consectetur <br>alias, sit est sunt obcaecati eveniet reprehenderit velit consequuntur deserunt laborum necessitatibus <br>accusamus animi reiciendis placeat. Natus.
+                </p>
+            </div>
+        <div class="row">
+            <div class="course-col">
+
+                <h3>Post Graduate</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis nihil ratione consectetur <br>alias, sit est sunt obcaecati eveniet reprehenderit velit consequuntur deserunt laborum necessitatibus <br>accusamus animi reiciendis placeat. Natus.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+<!---------------------------course------------------------------------------->
+
+<!---------------------------Campus------------------------------------------->
+
+<section class="campus">
+
+    <h1> Our Globle Campus</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis nihil ratione consectetur <br>alias, sit est sunt obcaecati eveniet reprehenderit velit consequuntur deserunt laborum necessitatibus <br>accusamus animi reiciendis placeat. Natus.</p>
+
+
+    <div class="row">
+
+        <div class="campus-col">
+
+            <img src="./eduford_img/london.png">
+            <div class="layer">
+    
+                <h3>London</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="./eduford_img/newyork.png">
+            <div class="layer">
+    
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+    
+            <img src="./eduford_img/washington.png">
+            <div class="layer">
+    
+                <h3>Washington</h3>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+<!---------------------------Campus------------------------------------------->
+<!---------------------------facilities------------------------------------------->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis nihil ratione consectetur <br>alias, sit est sunt obcaecati eveniet reprehenderit velit consequuntur deserunt laborum necessitatibus <br>accusamus animi reiciendis placeat. Natus.</p></p>
+</section>
+
+
+
+    <!-----------Java Script Toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "-0px";
+        }
+
+        function hideMenu(){
+
+            navLinks.style.right = "-2000px"
+        }
+    </script>
+</body>
+</html>
